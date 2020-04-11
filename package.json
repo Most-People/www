@@ -1,0 +1,22 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "jenkins test",
+  "author": "kidow",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "element-ui": "^2.4.11",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0"
+  }
+}
